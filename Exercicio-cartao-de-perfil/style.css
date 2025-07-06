@@ -1,0 +1,79 @@
+body {
+    background-color: var(--background-color);
+    font-size: 20px;
+    font-family: 'Athena', sans-serif;
+    height: 100vh;
+    color: floralwhite;
+}
+
+hr {
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+    background-color: var(--card-color);
+    width: 330px;
+    height: 350px;
+    border-radius: 20px;
+    margin: 20px;
+    box-shadow: 1px 3px 8px rgba(248, 238, 238, 0.6);
+}
+
+.card .dados-usuario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5px;
+    height: 100%;
+}
+
+.card .dados-usuario .foto-perfil {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-top: 20x;
+    border: 1px solid rgba(248, 238, 238, 0.9);
+    box-shadow: 1px 1px 5px rgba(12, 5, 5, 0.4);
+}
+
+.card .numero-curtidas {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.numero-curtidas .info .curtidas,
+.card .dados-usuario p {
+    font-weight: 700;
+}
+
+.card .dados-usuario p:hover {
+    color: #19d1e6;
+}
+
+.numero-curtidas .info .tipo-curtidas:hover {
+    color: #54acbf;
+}
+
+.card .dados-usuario .cidade,
+.card .dados-usuario .idade,
+.numero-curtidas .info .tipo-curtidas {
+    color: var(--text-color);
+}
