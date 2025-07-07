@@ -1,0 +1,76 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.logo {
+    font-size: 18px;
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    width: 55px;
+    height: 52px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+}
+
+.menu .categorias {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.menu .categorias a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 300;
+}
+
+.menu .categorias a:hover {
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: ease-in 0.3s;
+    gap: 10px;
+}
+
+.cadastre-se{
+    display: flex;
+    border: none;
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    list-style: none;
+}
+
+.cadastre-se a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 300;
+}
+
+.cadastre-se:hover {
+    display: flex;
+    border: none;
+    background-color: #0654ad;
+    color: #020101;
+    padding: 10px 20px;
+    border-radius: 5px;
+    list-style: none;
+}
